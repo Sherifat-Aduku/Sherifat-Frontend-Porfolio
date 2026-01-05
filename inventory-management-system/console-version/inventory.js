@@ -1,6 +1,5 @@
 
 // Inventory Management System
- 
 // Create an empty array called Inventory
  
 let inventory = []
