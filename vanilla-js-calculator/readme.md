@@ -2,7 +2,7 @@
 
 A simple calculator web app I built to practice JavaScript and DOM manipulation.
 
-It allows you:
+It allows one to:
 
 - Add, subtract, multiply, divide
 

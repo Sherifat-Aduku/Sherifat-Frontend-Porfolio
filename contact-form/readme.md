@@ -1,6 +1,6 @@
 # Contact Form
 
-This is a simple, responsive contact form I built with HTML, CSS, and basic JavaScript.  
+I built this simple, responsive contact form I built from frontend mentor challenge with HTML, CSS, and basic JavaScript.  
 
 It allow users to:  
 - Enter first name, last name, and email  
