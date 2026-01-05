@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Team 9 - Hackhunnies Inventory Management System</h1>
+
+    <div class="inventory-app">
+        <form id="productForm">
+            <h2>Add / Update Product</h2>
+
+            <label for="id">Product ID *</label>
+            <input type="number" id="id" required>
+
+            <label for="name">Product Name *</label>
+            <input type="text" id="name" required>
+
+            <label for="price">Price *</label>
+            <input type="number" id="price" required>
+
+            <label for="quantity">Quantity *</label>
+            <input type="number" id="quantity" required>
+
+            <button type="submit">Add / Update Product</button>
+        </form>
+
+        <h2>Inventory</h2>
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Inventory items will appear here -->
+                 
+            </tbody>
+        </table>
+
+        <p id="lowStockMessage"></p>
+        <p id="totalCostMessage"></p>
+    </div>
+
+    <script src="inventory.js"></script>
+</body>
+</html>

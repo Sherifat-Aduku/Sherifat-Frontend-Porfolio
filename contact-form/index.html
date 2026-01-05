@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+
+<div class="contact-section">
+  <div class="Container">
+    <h2 class="label">Contact Us</h2>
+
+    <form id="contactForm">
+
+      <div class="username">
+        <div class="fname">
+          <label for="fname">First Name *</label>
+          <input type="text" id="fname" required placeholder="John">
+        </div>
+
+        <div class="lname">
+          <label for="lname">Last Name *</label>
+          <input type="text" id="lname" required placeholder="Doe">
+        </div>
+      </div>
+
+      <div class="email">
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" required placeholder="example@mail.com">
+      </div>
+
+      <p>Query *</p>
+      <div class="radio">
+        <input type="radio" id="genquiry" name="queryType" value="General Enquiry" required>
+        <label for="genquiry">General Enquiry</label>
+
+        <input type="radio" id="srequest" name="queryType" value="Support Request">
+        <label for="srequest">Support Request</label>
+      </div>
+
+      <label for="msg">Message *</label>
+      <textarea name="Message" id="msg" required placeholder="Write your message here"></textarea>
+
+      <div class="consent">
+        <input type="checkbox" id="consent" required>
+        <label for="consent">I consent to being contacted by the team *</label>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <p class="success-message" id="successMessage"></p>
+    </form>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

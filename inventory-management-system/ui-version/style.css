@@ -1,0 +1,66 @@
+body {
+    font-family: Karla, sans-serif;
+    background-color: hsl(189, 44%, 82%);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inventory-app {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(10, 29, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(3, 1, 24, 0.623);
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#lowStockMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#totalCostMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
