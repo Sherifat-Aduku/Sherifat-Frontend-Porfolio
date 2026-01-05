@@ -1,6 +1,6 @@
 # Sherifat's Frontend Portfolio
 
-This repository showcases my frontend projects built using HTML, CSS, and JavaScript. Each project demonstrates different skills in UI, DOM manipulation, and dynamic interactions.
+This repository showcases my frontend projects built using HTML, CSS,JavaScript and React. Each project demonstrates different skills in UI, DOM manipulation, and dynamic interactions.
 
 ## Projects
 
