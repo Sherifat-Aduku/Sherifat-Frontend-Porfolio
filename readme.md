@@ -6,7 +6,7 @@ This repo contains my frontend projects using CSS, JavaScript, and React. It ref
 I built this simple vanilla JS calculator when I was running my scholarship programme at **Tech4Dev** with addition, subtraction, multiplication, division, percentages, and bracket support.
 
 ### [Contact Form](contact-form)
-This is a fully responsive contact form I built from a Frontend Mentor challenge. This form allow user input thier user info and make enquiries. This made me understood the importance of form validation.
+This is a fully responsive contact form I built from a Frontend Mentor challenge. This form allow user input thier user info and make enquiries. This made me understood the importance of form validation. See Live Link: (https://sherifat-contact-form.vercel.app/)
  
 ### [Inventory Management System](inventory-management-system)
 I created this dynamic inventory system while learning at Tech4Dev to add, update, and remove products, track low-stock items, and calculate total inventory value in real-time using html, css and javascript.
