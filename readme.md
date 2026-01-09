@@ -10,7 +10,7 @@ This is a fully responsive contact form I built from a Frontend Mentor challenge
  
 ### [Inventory Management System](inventory-management-system)
 I created this dynamic inventory system while learning at Tech4Dev to add, update, and remove products, track low-stock items, and calculate total inventory value in real-time using html, css and javascript.
- Live Demo on Vercel (https://vercel.com/sherifat-adukus-projects/inventory-management-system)
+ Live Demo on Vercel (https://inventory-management-system-flax-eight.vercel.app/)
 
 ### [Bank Account Simulation](bank-account-simulation)
 This is a console-based banking simulation I developed while I was learning JavaScript objects and control flow at Tech4Dev. It handles deposits, withdrawals, transfers, fees, interest, and basic currency conversion.
