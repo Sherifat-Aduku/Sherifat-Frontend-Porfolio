@@ -14,3 +14,8 @@ I created this dynamic inventory system while learning at Tech4Dev to add, updat
 
 ### [Bank Account Simulation](bank-account-simulation)
 This is a console-based banking simulation that I built while I was learning JavaScript objects and control flow at Tech4Dev. It handles deposits, withdrawals, transfers, fees, interest, and basic currency conversion.
+
+### [Flower Shop LandingPage](flower-shop-website)
+Flower Shop Landing Page (Team Project – Figma) This is a landing page for a flower shop that I worked on with my team in Figma. The page looks clean and pretty, and it’s easy to navigate around the products.
+My part: I worked on the hero section, making it look nice and grabbing attention.
+I also gave some ideas about colors and layout, and we all tried to make the design fit together.
