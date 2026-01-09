@@ -1,0 +1,68 @@
+.hero {
+  width: 100%;
+  color:  rgba(2, 52, 117, 0.15);
+ /* match Figma */
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 1903;
+  height: 670;
+  top: 152px;
+  left: 0.5px;
+
+opacity: 1;
+
+}
+
+/* LEFT */
+.hero-content {
+  max-width: 540px;
+}
+
+.hero .hero-badge {
+  width: 336.3908996582031;
+  height: 32;
+  opacity: 1;
+  font-family: Sora, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: rgba(112, 79, 230, 1);
+}
+.hero-title {
+  font-size: 52px;
+  line-height: 1.2;
+  color: #0e2a46;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+/* RIGHT */
+.hero-image {
+  max-width: 520px;
+  width: 740.5599975585938;
+  height: 670;
+  opacity: 1;
+}
+
+.primary-btn {
+  width: 203.02999877929688;
+  height: 89.25;
+  opacity: 1;
+  border-radius: 200px;
+
+}

@@ -1,0 +1,147 @@
+/* ================= ROOT HEADER ================= */
+.header {
+  width: 100%;
+  font-family: "Sora", sans-serif;
+}
+
+/* ================= TOP BAR ================= */
+.top-bar {
+  width: 100%;
+  background-color: rgba(23, 37, 78, 1);
+}
+
+.top-bar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+/* CONTACTS */
+.header-contacts {
+  display: flex;
+  gap: 24px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-item span {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Add divider except for last item */
+.contact-item:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 24px; 
+  background: rgba(255, 255, 255, 0.21);
+  margin-left: 8px;
+  opacity: 1; 
+}
+
+/* SOCIAL ICONS */
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px;
+  background: rgba(255, 210, 93, 1);
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon.facebook {
+  width: 7.789050102233887px;
+  height: 15px;
+  opacity: 1;
+}
+
+.social-icon.instagram {
+  width: 13px;
+  height: 13px;
+  opacity: 1;
+}
+
+.social-icon.youtube {
+  width: 13px;
+  height: 9.85px;
+}
+
+.social-icon.linkedin {
+  width: 13px;
+  height: 9.85px;
+}
+
+.header-socials svg {
+  fill: #ffffff;
+}
+
+/* ================= NAV BAR ================= */
+.nav-bar {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-bar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 85px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.nav-logo svg {
+  width: 180px;
+}
+
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 17px;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.nav-links li {
+  color: rgba(14, 42, 70, 1); 
+  transition: color 0.3s; 
+  cursor: pointer;  
+}
+.nav-links li:hover {
+  color: #6b4eff;
+  
+}
+
+/* BUTTON */
+.nav-btn {
+  color: white;
+  border: none;
+  width: 223.3px;
+  height: 58.5px;
+  opacity: 1;
+  border-radius: 200px;
+  padding: 16px;
+  background-color: rgba(112, 79, 230, 1)
+}
