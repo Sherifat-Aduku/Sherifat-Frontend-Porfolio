@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster | Settings</title>
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/components/dashboard/toggle/toggle.css">
+    <link rel="stylesheet" href="/components/settings/settings.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="app-title">
+            <img src="/assets/images/frame-94..svg" alt="brand icon">
+            <span>TaskMaster</span>
+
+            <button id="sidebarToggle" class="sidebar-toggle">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="user-box">
+            <div class="avatar">S</div>
+            <div class="user-info">
+                <h4>Sherifat Aduku</h4>
+                <p>sherifataduku.sa@gmail.com</p>
+            </div>
+        </div>
+
+        <nav class="menu-links">
+            <a href="/components/dashboard/dashboard.html"><i class="fa-regular fa-square"></i> Dashboard</a>
+            <a href="/components/tasks/task.html"><i class="fa-regular fa-list-check"></i> Tasks</a>
+            <a href="/components/community/community.html"><i class="fa-regular fa-user-group"></i> Community</a>
+            <a href="/components/expenses/myexpenses.html"><i class="fa-solid fa-wallet"></i> Expenses</a>
+            <a href="/components/notes/notes.html"><i class="fa-regular fa-note-sticky"></i> Notes</a>
+            <a class="active" href="/components/settings/settings.html"><i class="fa-solid fa-gear"></i> Settings</a>
+        </nav>
+
+        <div class="logout-box">
+            <a href="/index.html" id="logoutBtn"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- MAIN SETTINGS CONTENT -->
+    <main class="content">
+
+        <h1 class="settings-title">Profile Settings</h1>
+        <p class="settings-sub">Manage your account settings and preferences</p>
+
+        <div class="settings-card">
+
+            <h3 class="section-title"><i class="fa-regular fa-user"></i> Profile Information</h3>
+            <p class="section-desc">Update your personal information and account details</p>
+
+            <div class="profile-row">
+
+                <div class="profile-avatar">
+                    <div class="avatar-large">S</div>
+                    <button class="change-avatar-btn">Change Avatar</button>
+                </div>
+
+                <div class="profile-details">
+
+                    <div class="field-grid">
+                        <div class="field-box">
+                            <label>Full Name</label>
+                            <input type="text" value="Sherifat" readonly>
+                        </div>
+
+                        <div class="field-box">
+                            <label>Email Address</label>
+                            <input type="text" value="sherifataduku.sa@gmail.com" readonly>
+                        </div>
+
+                        <div class="field-box full">
+                            <label>User ID</label>
+                            <input type="text" value="f0738f79-e886-4ba5-ac57-b1590c7a63d9" readonly class="readonly">
+                            <small>Your unique user identifier (read-only)</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="save-btn">Save Changes</button>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="/components/dashboard/toggle/toggle.js"></script>
+<script src="/components/settings/settings.js"></script>
+
+</body>
+</html>

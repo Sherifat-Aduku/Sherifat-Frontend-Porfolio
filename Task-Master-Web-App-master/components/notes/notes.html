@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster | Notes</title>
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/components/dashboard/toggle/toggle.css">
+    <link rel="stylesheet" href="/components/notes/notes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="app-title">
+            <img src="/assets/images/frame-94..svg" alt="brand icon">
+            <span>TaskMaster</span>
+
+            <button id="sidebarToggle" class="sidebar-toggle">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="user-box">
+            <div class="avatar">S</div>
+            <div class="user-info">
+                <h4>Sherifat Aduku</h4>
+                <p>sherifaduku.as@gmail.com</p>
+            </div>
+        </div>
+
+        <nav class="menu-links">
+            <a href="/components/dashboard/dashboard.html"><i class="fa-regular fa-square"></i> Dashboard</a>
+            <a href="/components/tasks/task.html"><i class="fa-regular fa-list-check"></i> Tasks</a>
+            <a href="/components/community/community.html"><i class="fa-regular fa-user-group"></i> Community</a>
+            <a href="/components/expenses/myexpenses.html"><i class="fa-solid fa-wallet"></i> Expenses</a>
+            <a class="active" href="/components/notes/notes.html"><i class="fa-regular fa-note-sticky"></i> Notes</a>
+            <a href="/components/settings/settings.html"><i class="fa-solid fa-gear"></i> Settings</a>
+        </nav>
+
+        <div class="logout-box">
+            <a href="/index.html" id="logoutBtn"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <!-- WRAPPER -->
+        <div class="notes-wrapper">
+
+            <!-- HEADER -->
+            <div class="notes-header-full">
+                <div class="left">
+                    <i class="fa-regular fa-note-sticky"></i>
+                    <div>
+                        <h2>Personal Notes</h2>
+                        <p class="sub">Keep your thoughts organized</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABS -->
+            <div class="notes-tabs">
+                <button class="tab active" data-tab="myNotes">My Notes</button>
+                <button class="tab" data-tab="aiSummary">AI Summary</button>
+            </div>
+
+            <!-- MY NOTES -->
+            <div id="myNotes" class="tab-content active">
+
+                <div class="notes-topbar">
+                    <span class="count">0 notes</span>
+                    <button class="new-note-btn">
+                        <i class="fa-solid fa-plus"></i> New Note
+                    </button>
+                </div>
+
+                <div class="notes-empty">
+                    <i class="fa-regular fa-file-lines"></i>
+                    <p>No notes yet. Create your first note!</p>
+                </div>
+
+            </div>
+
+            <!-- AI SUMMARY -->
+            <div id="aiSummary" class="tab-content">
+
+                <div class="summary-empty">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <p>No AI summary available yet.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="/components/dashboard/toggle/toggle.js"></script>
+<script src="/components/notes/notes.js"></script>
+
+</body>
+</html>

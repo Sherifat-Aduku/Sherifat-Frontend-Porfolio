@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster Community</title>
+
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/components/community/community.css">
+    <link rel="stylesheet" href="/components/dashboard/toggle/toggle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="app-title">
+            <img src="/assets/images/frame-94..svg" alt="brand icon">
+            <span>TaskMaster</span>
+
+            <button id="sidebarToggle" class="sidebar-toggle">
+          <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="user-box">
+            <div class="avatar">S</div>
+            <div class="user-info">
+                <h4>Sherifat Aduku</h4>
+                <p>sherifataduku.sa@gmail.com</p>
+            </div>
+        </div>
+
+        <nav class="menu-links">
+            <a href="/components/dashboard/dashboard.html"><i class="fa-regular fa-square"></i> Dashboard</a>
+            <a href="/components/tasks/task.html"><i class="fa-regular fa-list-check"></i> Tasks</a>
+            <a class="active" href="/components/community/community.html"><i class="fa-regular fa-user-group"></i> Community</a>
+            <a href="/components/expenses/myexpenses.html"><i class="fa-solid fa-wallet"></i> Expenses</a>
+            <a href="/components/notes/notes.html"><i class="fa-regular fa-note-sticky"></i> Notes</a>
+            <a href="/components/settings/settings.html"><i class="fa-solid fa-gear"></i> Settings</a>
+        </nav>
+
+        <div class="logout-box">
+            <a href="/index.html" id="logoutBtn"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <div class="community-header">
+            <h1><i class="fa-regular fa-user-group"></i> Community Board</h1>
+            <p>Collaborate with your team</p>
+        </div>
+
+        <!-- POST INPUT BOX -->
+        <div class="post-input-box">
+            <div class="avatar avatar-sm">S</div>
+            <input type="text" id="postInput" placeholder="Share an update, ask for help, or celebrate a win... (Mention @comsq to get AI help)">
+            <button id="postBtn"><i class="fa-regular fa-paper-plane"></i> Post</button>
+        </div>
+
+        <!-- POSTS LIST -->
+        <div class="posts-list" id="postsList">
+            <div class="post-card ai-response">
+                <div class="post-header">
+                    <div class="avatar ai-avatar">🤖</div>
+                    <strong>Comsq AI</strong>
+                    <span class="tag">AI Assistant</span>
+                    <span class="time">1h ago</span>
+                </div>
+
+                <div class="post-body">
+                    <p>Hey there! I'm doing great, thanks for asking! As Comsq, your AI assistant in TaskMaster, I'm always here and ready to help you conquer your to-do list.</p>
+
+                    <p>How can I assist you today? Are you looking for tips on:</p>
+
+                    <ul>
+                        <li><strong>Organizing your tasks?</strong></li>
+                        <li><strong>Prioritizing effectively?</strong></li>
+                        <li><strong>Using a specific TaskMaster feature?</strong></li>
+                        <li><strong>Or just need a little motivation to get started?</strong></li>
+                    </ul>
+
+                    <p>Let me know what's on your mind, and I'll do my best to provide some actionable advice! Happy tasking! 😊</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="/components/community/community.js"></script>
+<script src="/components/dashboard/toggle/toggle.js"></script>
+
+</body>
+</html>

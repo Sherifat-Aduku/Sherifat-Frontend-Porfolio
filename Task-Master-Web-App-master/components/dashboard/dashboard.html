@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster | Dashboard</title>
+
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/components/dashboard/toggle/toggle.css">
+    <link rel="stylesheet" href="/components/dashboard/dashborad.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="app-title">
+            <img src="/assets/images/frame-94..svg" alt="brand icon">
+            <span>TaskMaster</span>
+
+            <button id="sidebarToggle" class="sidebar-toggle">
+    <i class="fa-solid fa-chevron-right"></i>
+    </button>
+        </div>
+
+        <div class="user-box">
+            <div class="avatar">S</div>
+            <div class="user-info">
+                <h4>Sherifat Aduku</h4>
+                <p>sherifaduku.as@gmail.com</p>
+            </div>
+        </div>
+
+             <nav class="menu-links">
+            <a class="active" href="/components/dashboard/dashboard.html"><i class="fa-regular fa-square"></i> Dashboard</a>
+            <a href="/components/tasks/task.html"><i class="fa-regular fa-list-check"></i> Tasks</a>
+            <a href="/components/community/community.html"><i class="fa-regular fa-user-group"></i> Community</a>
+            <a href="/components/expenses/myexpenses.html"><i class="fa-solid fa-wallet"></i> Expenses</a>
+            <a href="/components/notes/notes.html class="fa-regular fa-note-sticky"></i> Notes</a>
+            <a href=""><i class="fa-solid fa-gear"></i> Settings</a>
+        </nav>
+
+         <div class="logout-box">
+            <a href="/index.html" id="logoutBtn"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- MAIN DASHBOARD -->
+    <main class="content">
+
+        <h1 class="greeting">Good evening, Sherifat Aduku!</h1><br><br>
+        <p class="sub-text">Here's what's happening with your productivity today</p>
+
+        <!-- TOP STATS -->
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <div class="icon"><i class="fa-regular fa-square-check"></i></div>
+                <h3>Active Tasks</h3>
+                <p class="value">0</p>
+                <span class="note">0 completed</span>
+            </div>
+
+            <div class="stat-card">
+                <div class="icon teal"><i class="fa-solid fa-dollar-sign"></i></div>
+                <h3>Total Expenses</h3>
+                <p class="value">$0.00</p>
+                <span class="note">This period</span>
+            </div>
+
+            <div class="stat-card">
+                <div class="icon green"><i class="fa-regular fa-file-lines"></i></div>
+                <h3>Total Notes</h3>
+                <p class="value">0</p>
+                <span class="note">Saved notes</span>
+            </div>
+
+            <div class="stat-card">
+                <div class="icon purple"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Completion Rate</h3>
+                <p class="value">0%</p>
+                <span class="note">Task completion</span>
+            </div>
+
+        </div>
+
+        <!-- LOWER SECTION -->
+        <div class="bottom-wrap">
+
+            <!-- recent tasks -->
+            <div class="recent-card">
+                <h2><i class="fa-regular fa-clock"></i> Recent Tasks</h2>
+
+                <div class="empty-state">
+                    <i class="fa-regular fa-square-check"></i>
+                    <p>No tasks yet</p>
+                </div>
+            </div>
+
+            <!-- quick actions -->
+            <div class="quick-card">
+                <h2><i class="fa-solid fa-bolt"></i> Quick Actions</h2>
+
+                <div class="quick-item">
+                    <i class="fa-regular fa-square-check"></i>
+                    <div>
+                        <h4>Create New Task</h4>
+                        <p>Add a task to your list</p>
+                    </div>
+                </div>
+
+                <div class="quick-item">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <div>
+                        <h4>Track Expense</h4>
+                        <p>Record a new expense</p>
+                    </div>
+                </div>
+
+                <div class="quick-item">
+                    <i class="fa-regular fa-file-lines"></i>
+                    <div>
+                        <h4>Write Note</h4>
+                        <p>Capture your thoughts</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+<script src="/components/dashboard/toggle/toggle.js"></script>
+<script src="/components/dashboard/dashboard.js"></script>
+
+</body>
+</html>

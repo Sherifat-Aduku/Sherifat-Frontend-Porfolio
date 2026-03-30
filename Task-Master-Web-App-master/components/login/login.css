@@ -1,0 +1,135 @@
+
+body {
+ position: absolute;
+ left: 26rem;
+ right: 26rem;
+ font-family: 'Segoe UI', sans-serif;
+ opacity: 70;
+ box-shadow: rgb(75, 74, 74);
+}
+
+.login-container {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 2rem;
+  align-content: center;
+  border-color: white;
+  border-radius: 12px;
+  position: static;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+
+.task-icon img {
+  width: 80px;
+}
+
+.task-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+ h1 {
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #e4eeee;
+}
+
+.container-button button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color:#f0f0f0;
+  transition: all 0.3s ease;
+}
+button.active {
+   background: #fff;
+    color: black;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.login-container p {
+ 
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+ width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px; 
+  font-family: 'Segoe UI', sans-serif; 
+
+}
+
+.inline {
+ max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-box.fa-solid {
+  position: absolute;
+  padding: 10px;
+  min-width: 40px;
+}
+
+.action-buttons {
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-help button {
+ background: #f0f0f0;
+  color: #333;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+}
+
+.next-step button {
+   background: #FFC107;
+  color: #fff;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255,193,7,0.3);
+}
+
+.login:hover {
+  background: #e6b800;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}

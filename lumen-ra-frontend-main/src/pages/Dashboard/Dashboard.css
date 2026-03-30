@@ -1,0 +1,112 @@
+.dashboard-wrapper {
+  padding: 40px 8%;
+  background: #f8fafb;
+  min-height: 100vh;
+}
+
+/* Header */
+.welcome-card {
+  background: #1b6d7a;
+  color: white;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.continue-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 320px;
+}
+
+.continue-card button {
+  background: white;
+  color: #1b6d7a;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Stats */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: white;
+  padding: 30px;
+  border-radius: 24px;
+  text-align: center;
+  border: 1px solid #edf2f2;
+}
+
+.progress-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle-inner {
+  width: 75px;
+  height: 75px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #1b6d7a;
+}
+
+.bar-container {
+  height: 8px;
+  background: #e0eded;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.bar-fill { height: 100%; background: #f38d49; transition: width 0.5s ease; }
+
+.empty-badges {
+  color: #ccc;
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-top: 15px;
+}
+
+/* Empty Chart State */
+.chart-container.is-empty {
+  height: 200px;
+  border: 2px dashed #e0eded;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  background: #fff;
+}
+
+/* Module Cards */
+.module-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.module-card { background: white; padding: 25px; border-radius: 20px; border: 1px solid #edf2f2; }
+.module-card.locked { opacity: 0.6; background: #fcfcfc; }
+.status-tag { font-size: 0.65rem; font-weight: 800; padding: 4px 10px; border-radius: 5px; }
+.status-tag.completed { background: #e0f7f1; color: #1b6d7a; }
+.status-tag.locked { background: #eee; color: #999; }

@@ -1,0 +1,116 @@
+/* ====================================
+   GLOBAL RESET
+==================================== */
+
+html, body, #root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-size: large;
+  background-color: #FAFAF9;
+  font-family: system-ui, Arimo, Roboto, apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ====================================
+   APP LAYOUT
+==================================== */
+
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-content {
+  flex: 1;              
+  display: flex;
+  flex-direction: column;
+}
+
+/* ====================================
+   HEADER
+==================================== */
+
+.App-header {
+  background-color:rgba(222, 201, 197, 1);
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;          
+  padding: 0.5rem 1.5rem;
+}
+
+.App-header a {
+  color:rgba(31, 111, 120, 1);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Mobile-first responsive overrides */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .App-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .App-header a {
+    font-size: 1.05rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .App-header {
+    min-height: auto;
+    gap: 0.75rem;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  .navbar {
+    margin: 0.5rem 1rem;
+  }
+}
+
+

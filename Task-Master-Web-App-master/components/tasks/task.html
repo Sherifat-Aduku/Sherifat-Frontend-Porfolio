@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster | Tasks</title>
+
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/components/tasks/task.css">
+    <link rel="stylesheet" href="/components/dashboard/toggle/toggle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="app-title">
+            <img src="/assets/images/frame-94..svg" alt="brand icon">
+            <span>TaskMaster</span>
+
+            <button id="sidebarToggle" class="sidebar-toggle">
+            <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="user-box">
+            <div class="avatar">S</div>
+            <div class="user-info">
+                <h4>Sherifat Aduku</h4>
+                <p>sherifaduku.as@gmail.com</p>
+            </div>
+        </div>
+
+        <nav class="menu-links">
+            <a href="/components/dashboard/dashboard.html"><i class="fa-regular fa-square"></i> Dashboard</a>
+            <a class="active" href="/components/tasks/task.html"><i class="fa-regular fa-list-check"></i> Tasks</a>
+            <a href="/components/community/community.html"><i class="fa-regular fa-user-group"></i> Community</a>
+            <a href="#"><i class="fa-solid fa-wallet"></i> Expenses</a>
+            <a href="#"><i class="fa-regular fa-note-sticky"></i> Notes</a>
+            <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+        </nav>
+
+        <div class="logout-box">
+            <a href="/index.html" id="logoutBtn"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <div class="task-header">
+            <h1><i class="fa-solid fa-list-check"></i> Task Management</h1>
+            <p>Manage and track your tasks</p>
+        </div>
+
+        <div class="task-nav">
+            <button class="active">My Tasks</button>
+            <button>AI Summary</button>
+        </div>
+
+        <div class="task-stats">
+            <div>
+                <h3>0</h3>
+                <p>Active tasks</p>
+            </div>
+            <div>
+                <h3 style="color: green;">0</h3>
+                <p>Completed</p>
+            </div>
+        </div>
+
+        <div class="task-list-box">
+            <div class="empty-state">
+                <i class="fa-regular fa-circle"></i>
+                <p>No tasks yet</p>
+                <small>Click "Add Task" to create your first task</small>
+            </div>
+        </div>
+
+        <button class="add-task-btn"><i class="fa-solid fa-plus"></i> Add Task</button>
+
+    </main>
+
+</div>
+
+<script src="/components/tasks/task.js"></script>
+<script src="/components/dashboard/toggle/toggle.js"></script>
+
+</body>
+</html>

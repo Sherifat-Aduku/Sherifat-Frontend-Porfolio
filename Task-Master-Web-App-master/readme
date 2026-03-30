@@ -1,0 +1,35 @@
+# TaskMaster UI Project
+
+A simple Task master App UI built with HTML, CSS, and JavaScript using a modern folder structure (assets, components, templates).
+
+## 📂 Project Structure
+
+project-folder/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── components/
+│     ├── dashboard
+│     ├── community
+│     ├── expenses
+│     ├── task
+│     ├── notes
+│     ├── settings
+│     └── login
+│     └── signup
+│     
+├── index.html
+└── login.html
+
+##  Features
+- Clean folder organization
+- Signup, Login, dashboard, community, expenses, tasks, notes, and settings pages
+
+##  How to Use
+Open signup.html or login.html or dashboard.html in your browser.
+Use Live Server for faster preview.
+
+##  Notes
+All images are in assets/images.
+

@@ -1,0 +1,73 @@
+/* TOGGLE BUTTON */
+.sidebar-toggle {
+    position: absolute;
+    top: 20px;
+    right: -18px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #6b4eff; 
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 2000;
+    transition: right 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sidebar-toggle:hover {
+    opacity: 0.85;
+}
+
+
+.app-title.fa-chevron-right {
+    display: flex;
+}
+
+
+.sidebar {
+    position: relative;
+    transition: width 0.3s ease;
+}
+
+/* COLLAPSED SIDEBAR */
+.sidebar.collapsed {
+    width: 50px;
+}
+
+
+.sidebar.collapsed .app-title span,
+.sidebar.collapsed .user-info,
+.sidebar.collapsed .menu-links a span,
+.sidebar.collapsed .logout-box a span,
+.sidebar.collapsed .sub-text {
+    display: none;
+}
+
+
+.menu-links a i {
+    font-size: 18px;
+}
+
+
+.sidebar.collapsed .menu-links a {
+    justify-content: center;
+}
+
+.sidebar.collapsed .avatar {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+}
+
+
+.sidebar.collapsed ~ .content {
+    margin-left: -180px;
+    transition: margin-left 0.3s ease;
+}
