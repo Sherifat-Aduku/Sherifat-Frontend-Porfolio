@@ -1,14 +1,13 @@
 # Vanilla JS Calculator
-
 A simple calculator web app I built to practice JavaScript and DOM manipulation.
 
 It allows one to:
 
-- Add, subtract, multiply, divide
+Add, subtract, multiply, divide
 
-- Use percentages and brackets
+Use percentages and brackets
 
-- Clear or backspace inputs
+Clear or backspace inputs
 
 I built this with HTML, CSS, and vanilla JavaScript.
 
