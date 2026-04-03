@@ -32,7 +32,6 @@ I created this book recommender app using the following react hooks:
 - useReducer was used to manage multiple states, such as genre, mood, and AI responses.
 - useCallback was used to remember the function to avoid rerendering/repetitions.
 - Used Gemini API for getting AI responses.
-
 This book app allows users to select options from dropdown menus based on their preferred genre, mood, and reading level, and also ask AI to make personalized book recommendations.
 
 ### [Contact Form](contact-form)
