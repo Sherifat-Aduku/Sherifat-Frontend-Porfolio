@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Flower Shop</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900 overflow-x-hidden scroll-smooth">
+
+  <!-- TOP BAR -->
+  <div class="bg-purple-700 text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-3">
+
+      <p>Call Us: +123-456-789</p>
+
+      <p class="text-center">
+        Sign up and GET 20% OFF on your first order.
+        <a href="#" class="underline text-pink-200 hover:text-white transition">
+          Sign-up now
+        </a>
+      </p>
+
+      <div class="flex items-center gap-4">
+        <img src="./Flower photos/facebook.svg" class="w-5 h-5" alt="">
+        <img src="./Flower photos/twitter.svg" class="w-5 h-5" alt="">
+        <img src="./Flower photos/instagram.svg" class="w-5 h-5" alt="">
+        <img src="./Flower photos/pinterest.svg" class="w-5 h-5" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 bg-white z-50 border-b border-gray-100">
+
+    <div class="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
+
+      <!-- Logo -->
+      <div class="flex items-center gap-3">
+        <img src="./Flower photos/flower.svg" class="w-10 h-10" alt="logo">
+
+        <h1 class="text-xl font-bold">
+          Flower Shop
+        </h1>
+      </div>
+
+      <!-- Nav Links -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium">
+
+        <a href="#home" class="hover:text-purple-700 transition">
+          Home
+        </a>
+
+        <a href="#products" class="hover:text-purple-700 transition">
+          Shop
+        </a>
+
+        <a href="#occasions" class="hover:text-purple-700 transition">
+          Occasions
+        </a>
+
+        <a href="#about" class="hover:text-purple-700 transition">
+          About Us
+        </a>
+
+        <a href="#blogs" class="hover:text-purple-700 transition">
+          Blogs
+        </a>
+
+        <a href="#contact" class="hover:text-purple-700 transition">
+          Contact
+        </a>
+
+      </nav>
+
+      <!-- Icons -->
+      <div class="flex items-center gap-5">
+
+        <img
+          src="images/iconamoon--search-light.png"
+          class="w-5 h-5 cursor-pointer"
+          alt=""
+        >
+
+        <img
+          src="images/iconamoon--shopping-bag-light.png"
+          class="w-5 h-5 cursor-pointer"
+          alt=""
+        >
+
+        <img
+          src="images/fluent-mdl2--contact.png"
+          class="w-5 h-5 cursor-pointer"
+          alt=""
+        >
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section
+    id="home"
+    class="bg-gray-50"
+  >
+
+    <div class="max-w-7xl mx-auto px-4 py-16 lg:py-24 grid lg:grid-cols-2 gap-14 items-center">
+
+      <!-- Left -->
+      <div>
+
+        <div class="inline-flex items-center gap-2 bg-white rounded-full px-5 py-3 shadow-sm text-purple-700 text-sm font-medium">
+
+          <img
+            src="./Flower photos/flower.svg"
+            class="w-4 h-4"
+            alt=""
+          >
+
+          Your Trusted Online Flower Shop
+
+        </div>
+
+        <h2 class="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight mt-6">
+
+          The Ultimate
+
+          <span class="text-purple-700">
+            Flower Shopping Destination
+          </span>
+
+        </h2>
+
+        <p class="text-gray-600 text-lg leading-relaxed mt-6 max-w-xl">
+
+          Beautiful handcrafted bouquets and premium flower arrangements delivered fresh to your doorstep.
+
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-8">
+
+          <button class="bg-purple-700 hover:bg-purple-800 transition text-white px-7 py-4 rounded-full font-medium">
+            Shop Now
+          </button>
+
+          <a href="#products" class="underline font-medium">
+            View All Products
+          </a>
+
+        </div>
+
+        <!-- Ratings -->
+        <div class="flex items-center gap-4 mt-10 flex-wrap">
+
+          <div class="flex -space-x-3">
+
+            <img
+              src="images/download.jfif"
+              class="w-12 h-12 rounded-full border-2 border-white object-cover"
+              alt=""
+            >
+
+            <img
+              src="images/download (1).jfif"
+              class="w-12 h-12 rounded-full border-2 border-white object-cover"
+              alt=""
+            >
+
+            <img
+              src="images/download (2).jfif"
+              class="w-12 h-12 rounded-full border-2 border-white object-cover"
+              alt=""
+            >
+
+            <img
+              src="images/download (3).jfif"
+              class="w-12 h-12 rounded-full border-2 border-white object-cover"
+              alt=""
+            >
+
+          </div>
+
+          <div>
+            <h4 class="font-semibold">
+              4.9+ Ratings
+            </h4>
+
+            <p class="text-gray-500 text-sm">
+              Trusted by 95k+ Customers
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Right -->
+      <div>
+
+        <img
+          src="images/vecteezy_a-woman-holding-a-bouquet-of-flowers_59913466.PNG"
+          alt="hero image"
+          class="w-full max-w-xl mx-auto rounded-[40px] object-cover"
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- OCCASIONS -->
+  <section
+    id="occasions"
+    class="py-20"
+  >
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="text-center max-w-2xl mx-auto">
+
+        <p class="uppercase tracking-wider text-gray-500">
+          Occasions
+        </p>
+
+        <h2 class="text-4xl font-bold mt-3">
+
+          Shop By
+
+          <span class="text-purple-700">
+            Occasions
+          </span>
+
+        </h2>
+
+      </div>
+
+      <!-- Cards -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mt-14">
+
+        <!-- Card -->
+        <div class="bg-white rounded-3xl p-6 text-center shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/ring.png"
+            class="w-16 h-16 object-contain mx-auto"
+            alt=""
+          >
+
+          <h3 class="font-semibold mt-5">
+            Wedding
+          </h3>
+
+          <p class="text-sm text-gray-500 mt-1">
+            42 Products
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 text-center shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/gift.png"
+            class="w-16 h-16 object-contain mx-auto"
+            alt=""
+          >
+
+          <h3 class="font-semibold mt-5">
+            Birthday
+          </h3>
+
+          <p class="text-sm text-gray-500 mt-1">
+            56 Products
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 text-center shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/valentines-day.png"
+            class="w-16 h-16 object-contain mx-auto"
+            alt=""
+          >
+
+          <h3 class="font-semibold mt-5">
+            Anniversary
+          </h3>
+
+          <p class="text-sm text-gray-500 mt-1">
+            16 Products
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 text-center shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/give.png"
+            class="w-16 h-16 object-contain mx-auto"
+            alt=""
+          >
+
+          <h3 class="font-semibold mt-5">
+            Get Well Soon
+          </h3>
+
+          <p class="text-sm text-gray-500 mt-1">
+            16 Products
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 text-center shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/valentines-day.png"
+            class="w-16 h-16 object-contain mx-auto"
+            alt=""
+          >
+
+          <h3 class="font-semibold mt-5">
+            Graduation
+          </h3>
+
+          <p class="text-sm text-gray-500 mt-1">
+            13 Products
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 text-center shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/valentines-day.png"
+            class="w-16 h-16 object-contain mx-auto"
+            alt=""
+          >
+
+          <h3 class="font-semibold mt-5">
+            Thank You
+          </h3>
+
+          <p class="text-sm text-gray-500 mt-1">
+            48 Products
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section
+    id="about"
+    class="pb-24"
+  >
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="bg-gray-100 rounded-[40px] p-8 lg:p-16 grid lg:grid-cols-2 gap-14 items-center">
+
+        <!-- Image -->
+        <div class="flex justify-center">
+
+          <div class="w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border-[14px] border-white shadow-lg">
+
+            <img
+              src="images/istockphoto-686288500-1024x1024.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            >
+
+          </div>
+
+        </div>
+
+        <!-- Text -->
+        <div>
+
+          <p class="text-purple-700 font-medium">
+            About Us
+          </p>
+
+          <h2 class="text-4xl lg:text-5xl font-bold leading-tight mt-4">
+
+            Delivering Nature's
+
+            <span class="text-purple-700">
+              Beauty
+            </span>
+
+            To Your Door
+
+          </h2>
+
+          <p class="text-gray-600 leading-relaxed mt-6">
+
+            We create elegant floral arrangements designed to celebrate life's beautiful moments.
+
+          </p>
+
+          <!-- Stats -->
+          <div class="bg-purple-700 rounded-3xl mt-10 p-6 grid grid-cols-3 gap-4 text-center text-white">
+
+            <div>
+
+              <h3 class="text-2xl font-bold">
+                20+
+              </h3>
+
+              <p class="text-sm text-purple-200 mt-1">
+                Categories
+              </p>
+
+            </div>
+
+            <div>
+
+              <h3 class="text-2xl font-bold">
+                1000+
+              </h3>
+
+              <p class="text-sm text-purple-200 mt-1">
+                Products
+              </p>
+
+            </div>
+
+            <div>
+
+              <h3 class="text-2xl font-bold">
+                99%
+              </h3>
+
+              <p class="text-sm text-purple-200 mt-1">
+                Satisfied Clients
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PRODUCTS -->
+  <section
+    id="products"
+    class="pb-24"
+  >
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-5">
+
+        <div>
+
+          <p class="text-gray-500">
+            Our Products
+          </p>
+
+          <h2 class="text-4xl font-bold mt-2">
+
+            Our
+
+            <span class="text-purple-700">
+              Top Seller Products
+            </span>
+
+          </h2>
+
+        </div>
+
+        <button class="bg-purple-700 text-white px-6 py-4 rounded-full hover:bg-purple-800 transition">
+          View All Products
+        </button>
+
+      </div>
+
+      <!-- Product Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
+
+        <!-- Product -->
+        <div class="bg-white rounded-[30px] overflow-hidden shadow-sm hover:shadow-xl transition">
+
+          <div class="bg-gray-100 p-8 relative">
+
+            <span class="absolute top-5 left-5 bg-pink-200 text-sm px-4 py-2 rounded-full">
+              20% Off
+            </span>
+
+            <img
+              src="images/vecteezy_flower-bouquet-isolated-on-a-transparent-background_48723396.png"
+              class="h-56 mx-auto object-contain"
+              alt=""
+            >
+
+          </div>
+
+          <div class="p-6">
+
+            <div class="flex items-center justify-between text-sm text-gray-500">
+
+              <span>Bouquets</span>
+
+              <span>⭐ 4.8</span>
+
+            </div>
+
+            <h3 class="text-xl font-semibold mt-3">
+              Blue White Bouquets
+            </h3>
+
+            <div class="mt-4 flex items-center gap-3">
+
+              <span class="text-xl font-bold">
+                $45.00
+              </span>
+
+              <span class="text-gray-400 line-through">
+                $90.00
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BLOGS -->
+  <section
+    id="blogs"
+    class="bg-gray-50 py-24"
+  >
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="text-center">
+
+        <p class="text-gray-500 uppercase tracking-wider">
+          News & Blogs
+        </p>
+
+        <h2 class="text-4xl font-bold mt-3">
+
+          Our
+
+          <span class="text-purple-700">
+            Latest Blogs
+          </span>
+
+        </h2>
+
+      </div>
+
+      <!-- Blog Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition">
+
+          <img
+            src="images/matthew-nevins-bell-hg0EDH34Nm0-unsplash.jpg"
+            class="w-full h-72 object-cover"
+            alt=""
+          >
+
+          <div class="p-6">
+
+            <h3 class="font-semibold text-xl leading-snug">
+              Choosing the Perfect Wedding Bouquet
+            </h3>
+
+            <p class="text-gray-500 mt-3 text-sm">
+              By Jenny Alexander • 13 Dec 2024
+            </p>
+
+            <a
+              href="#"
+              class="inline-block mt-5 underline text-purple-700"
+            >
+              Read More
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="py-24">
+
+    <div class="max-w-3xl mx-auto px-4 text-center">
+
+      <p class="uppercase tracking-wider text-gray-500">
+        Our Newsletter
+      </p>
+
+      <h2 class="text-4xl font-bold mt-4 leading-tight">
+
+        Subscribe To Get
+
+        <span class="text-purple-700">
+          Latest Offers
+        </span>
+
+      </h2>
+
+      <p class="text-gray-600 mt-5">
+        Get 20% off your first order when you subscribe.
+      </p>
+
+      <form class="mt-10 flex flex-col sm:flex-row gap-4">
+
+        <input
+          type="email"
+          placeholder="Enter Email Address"
+          class="flex-1 px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500"
+        >
+
+        <button class="bg-purple-700 hover:bg-purple-800 transition text-white px-8 py-4 rounded-full font-medium">
+          Subscribe
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer
+    id="contact"
+    class="bg-purple-700 text-white pt-20 pb-10"
+  >
+
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+      <!-- Column -->
+      <div>
+
+        <div class="flex items-center gap-3 mb-5">
+
+          <img
+            src="images/floral-design.png"
+            class="w-10 h-10"
+            alt=""
+          >
+
+          <h3 class="text-2xl font-bold">
+            Flower Shop
+          </h3>
+
+        </div>
+
+        <p class="text-purple-100 leading-relaxed">
+
+          Beautiful flowers crafted with love and delivered with care.
+
+        </p>
+
+      </div>
+
+      <!-- Company -->
+      <div>
+
+        <h4 class="font-semibold text-lg mb-5">
+          Company
+        </h4>
+
+        <ul class="space-y-3 text-purple-100">
+
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+
+          <li>
+            <a href="#blogs">Blogs</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <!-- Support -->
+      <div>
+
+        <h4 class="font-semibold text-lg mb-5">
+          Support
+        </h4>
+
+        <ul class="space-y-3 text-purple-100">
+
+          <li>Track Order</li>
+          <li>Returns</li>
+          <li>FAQ</li>
+          <li>Help Center</li>
+
+        </ul>
+
+      </div>
+
+      <!-- Contact -->
+      <div>
+
+        <h4 class="font-semibold text-lg mb-5">
+          Contact
+        </h4>
+
+        <div class="space-y-3 text-purple-100">
+
+          <p>+0123-456-789</p>
+          <p>example@gmail.com</p>
+          <p>123 Street, City, Country</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="border-t border-purple-500 mt-16 pt-8 text-center text-purple-200 text-sm px-4">
+
+      © 2024 Flower Shop Website. All Rights Reserved.
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
